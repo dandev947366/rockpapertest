@@ -4,7 +4,7 @@ Professor: Esa Huiskonen
 Student: Dan Le
 Team: 4
 Github link: https://github.com/dandev947366/rockpapertest
-Youtube link: https://youtu.be/OhyvnSqknoU
+Youtube link: https://youtu.be/fzxWyNOEJfc
 
 Test Case Table for Rock-Paper-Scissors Game
 
