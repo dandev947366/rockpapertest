@@ -1,0 +1,88 @@
+Assignment 3
+Class: Software Testing
+Professor: Esa Huiskonen
+Student: Dan Le
+Team: 4
+Github link: https://github.com/dandev947366/rockpapertest
+Youtube link: https://youtu.be/OhyvnSqknoU
+
+Test Case Table for Rock-Paper-Scissors Game
+
+1.
+Test Case: test_user_wins_rock
+Input: (User choice: "paper", Computer choice: "rock")
+Expected Output: "You win!"
+Description: Tests the scenario where the user wins by choosing "paper" against the computer's "rock".
+
+2.
+Test Case: test_user_wins_paper
+Input: (User choice: "scissors", Computer choice: "paper")
+Expected Output: "You win!"
+Description: Tests the scenario where the user wins by choosing "scissors" against the computer's "paper".
+
+3.
+Test Case: test_user_wins_scissors
+Input: (User choice: "rock", Computer choice: "scissors")
+Expected Output: "You win!"
+Description: Tests the scenario where the user wins by choosing "rock" against the computer's "scissors".
+
+4.
+Test Case: test_user_lose_rock
+Input: (User choice: "scissors", Computer choice: "rock")
+Expected Output: "You lose!"
+Description: Tests the scenario where the user loses by choosing "scissors" against the computer's "rock".
+
+5.
+Test Case: test_user_lose_paper
+Input: (User choice: "rock", Computer choice: "paper")
+Expected Output: "You lose!"
+Description: Tests the scenario where the user loses by choosing "rock" against the computer's "paper".
+
+6.
+Test Case: test_user_lose_scissors
+Input: (User choice: "paper", Computer choice: "scissors")
+Expected Output: "You lose!"
+Description: Tests the scenario where the user loses by choosing "paper" against the computer's "scissors".
+
+7.
+Test Case: test_user_tie_rock
+Input: (User choice: "rock", Computer choice: "rock")
+Expected Output: "It's a tie!"
+Description: Tests the scenario where the user ties by choosing "rock" against the computer's "rock".
+
+8.
+Test Case: test_user_tie_paper
+Input: (User choice: "paper", Computer choice: "paper")
+Expected Output: "It's a tie!"
+Description: Tests the scenario where the user ties by choosing "paper" against the computer's "paper".
+
+9.
+Test Case: test_user_tie_scissors
+Input: (User choice: "scissors", Computer choice: "scissors")
+Expected Output: "It's a tie!"
+Description: Tests the scenario where the user ties by choosing "scissors" against the computer's "scissors".
+
+10.
+Test Case: test_valid_choices
+Input: (User choice: "1")
+Expected Output: "rock"
+Description: Tests the conversion of the numeric string "1" to the choice "rock".
+
+11.
+Test Case: test_invalid_choices
+Input: (User choice: "4")
+Expected Output: None
+Description: Tests the conversion of an invalid numeric string "4" to ensure it returns None.
+
+12.
+Test Case: test_numeric_string_choices
+Input: (User choice: "01")
+Expected Output: None
+Description: Tests the conversion of a numeric string with leading zeros to ensure it returns None.
+
+13.
+Test Case: test_exit_command
+Input: (User input: "exit")
+Expected Output: "Thanks for playing!"
+Description: Tests the exit command to ensure the program prints a thank-you message and terminates correctly.
+
